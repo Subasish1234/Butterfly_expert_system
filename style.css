@@ -1,0 +1,64 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@300;400&display=swap');
+
+    /* General Font & Color */
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: #E0E0E0;
+    }
+
+    /* --- Glassmorphism Card Effect --- */
+    .glass-card {
+        background: rgba(20, 20, 40, 0.65);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* --- Title & Headers --- */
+    h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 3rem;
+        background: -webkit-linear-gradient(45deg, #00C9FF, #92FE9D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-bottom: 0.5rem;
+    }
+
+    h2, h3 {
+        font-family: 'Orbitron', sans-serif;
+        color: #00C9FF;
+    }
+
+    /* --- File Uploader --- */
+    .st-emotion-cache-1jicfl2 { /* Specific selector for the uploader area */
+        border: 2px dashed #00C9FF;
+        padding: 1.5rem;
+        border-radius: 16px;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+    .st-emotion-cache-1jicfl2:hover {
+        background-color: rgba(0, 201, 255, 0.1);
+    }
+    
+    /* --- Main content styling --- */
+    .block-container {
+        padding-top: 2rem;
+    }
+    
+    /* Animation for content fade-in */
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .main-content {
+        animation: fadeIn 1s ease-out;
+    }
+    

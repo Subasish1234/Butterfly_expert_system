@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+tensorflow
+wikipedia-api
+folium
+streamlit-folium
+requests
